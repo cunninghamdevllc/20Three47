@@ -1,0 +1,75 @@
+@media (max-width: 991px){
+    .banner .imgSideBar{
+display: none;
+    }
+    .banner .contentBx, 
+    .sidebar{
+        min-width: 100%;
+        padding: 40px;
+    }
+.logoText{
+    
+    left: 40px;
+}
+.toggle{
+    right: 40px;
+    
+}
+.sci{
+    left: 40px;
+}
+
+section{
+    padding: 40px;
+}
+.about .content{
+    
+    flex-direction: column;
+
+    .textBx{
+        min-width: 100%;
+        width: 100%;
+    }
+    .imgBx{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+   
+}
+.contact .contactForm{
+width: 100%;
+
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    .col50{
+        width: 100%;
+    }
+}
+}
+.sidebar ul li { 
+margin-top: 10px;
+a {
+
+    font-size: 1.5em;
+    margin-top: 15px;
+}}
+.work .content .workBx{
+        
+    max-width: 100%;
+    width: 100%;
+    margin: 10px 0;
+}
+}
+
+@media (max-width: 500px){
+    .work .content .workBx{
+        
+        max-width: 100%;
+        width: 100%;
+        margin: 10px 0;
+    }
+}

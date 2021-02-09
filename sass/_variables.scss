@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@300&display=swap');
+
+/* Fonts */
+$main-text: 'Montserrat', sans-serif;
+$header-text: 'Raleway', sans-serif;
+
+h1,h2,h3,h4,h5,h6{
+    font-family: $header-text;
+}
+
+p, a , span {
+    font-family: $main-text;
+}
+
+$primary:#cd6133;
+$secondary: #7f8fa6;
+$success:#44bd32;
+$danger:#e84118;
+$warning:#e1b12c;
+$info: #cd6133;
+$dark:#1e272e;
+$light:#f5f6fa;
